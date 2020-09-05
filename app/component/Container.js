@@ -1,10 +1,12 @@
 import React from 'react'
 
-function Container() {
+function Container(props) {
     return (
         <>
-        <div className="container container--narrow py-md-5"></div>
-        
+            <div className={"container py-md-5" + (props.wide ? '':' container--narrow ')}>
+                {props.children}
+            </div>
+
         </>
     )
 }
