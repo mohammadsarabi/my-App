@@ -67,9 +67,9 @@ body {
   }
   
   .input-dark {
-    background-color: #444;
+    background-color: #dbd9d9;
     border-color: transparent;
-    color: #ffffff;
+    
   }
   
   .input-dark:focus {
